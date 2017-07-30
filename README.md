@@ -7,3 +7,7 @@ Steps:<br>
 3.Run initialize.py,then train.py and then chatbot.py<br>
 4.Test some inputs.
 
+<p align="center">
+  <img src="12.png" width="350"/>
+  <img src="ch.png" width="350"/>
+</p>
