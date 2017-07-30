@@ -8,6 +8,6 @@ Steps:<br>
 4.Test some inputs.
 
 <p align="center">
-  <img src="12.png" width="350"/>
-  <img src="ch.png" width="350"/>
+  <img src="12.png" />
+  <img src="ch.png" />
 </p>
