@@ -1,0 +1,69 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 10am-6pm", "Our hours are 10am-6pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 10am-6pm", "Our hours are 10am-6pm every day"]
+        },
+        {"tag": "Packages",
+         "patterns": ["packages Available","What packages you have?"],
+         "responses": ["Honeymoon , Domestic , International"]
+        },
+        {"tag": "Honeymoon",
+         "patterns": ["Locations for Honeymoon packages","Locations Available in Honeymoon packages","honeymoon packages available"],
+         "responses": ["Singapore with criuse , Mauritious , Bali , Hong-Kong and Macau"]
+        },
+        {"tag": "International",
+         "patterns": ["Locations for International packages","Locations Available in International packages","International packages available"],
+         "responses": ["Dubai , Singapore , Europe , Mauritious , Bali , Thailand , Srilanka"]
+        },
+        {"tag": "Domestic",
+         "patterns": ["Locations for Domestic packages","Locations Available in Domestic packages","domestic packages"],
+         "responses": ["Andaman , Srinagar , Kerala , Manali"]
+        },
+        {"tag": "Steps",
+         "patterns": ["How I Apply for package?" , "How to book Package?","How to Apply for Event?" , "How to book Event?"],
+         "responses": ["Step 1 :- Goes to Bookingsquad.com\n Step 2 :- Select Package Which you want to book\nStep 3 :- Fill Enquiry form\nFor more details Contact us"]
+        },
+        {"tag": "Events",
+         "patterns": ["What Events you Organise", "What Types of Events Available "],
+         "responses": ["Wedding Planners , Destination Wedding , Product Launch , MICE , Product Launch"]
+        },
+        {"tag": "Insurance",
+         "patterns": ["What Type of Insurances Available?", "Insurances Available in package"],
+         "responses": ["Domestic travel insurance , International insurance , Family travel insurance, Individual travel insurance"]
+        },
+        {"tag": "Visa",
+         "patterns": ["How to Apply Visa", "Apply for visa"],
+         "responses": ["Goto VISA section in 'Bookingsquad.com' "]
+        },
+        {"tag": "India",
+         "patterns": ["What Places in India are Available in your Packages","Kind of places available in India","Specialities in India?"],
+         "responses": ["Holy Places,Medical Tourism,Advanture Places,Wildlife Safari,Agriculture Tourism"]
+        },
+        {"tag": "Query",
+         "patterns": ["How I Contact you?","What is your contact Number?"],
+         "responses": ["Contact us on 0172-222-2222" , "Mail At this mail 'travel@bookingsquad.com' and send any Query" ]
+        }
+   ]
+}
+
